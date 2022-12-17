@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdb27706-bcaf-4b25-ba43-3e6e1e0b0c17</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa7f32d8-a7d3-4121-894d-9c7f525b1961</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fffde76f-9cdf-4878-9456-5d918558fbf5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4bca2b83-6350-4dbe-b46b-ddba8681ae72</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>aa7f32d8-a7d3-4121-894d-9c7f525b1961</id>
+      <masked>false</masked>
+      <name>Nama</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>fffde76f-9cdf-4878-9456-5d918558fbf5</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>4bca2b83-6350-4dbe-b46b-ddba8681ae72</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
