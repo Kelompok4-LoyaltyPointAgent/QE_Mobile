@@ -17,15 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('loyalty_point_agentcom.example.loyalty_point_agentv1.0.0 (1).apk', false)
+Mobile.startApplication('F:\\2022\\QE_CapstoneProject\\Git\\QE_Mobile\\QE_Mobile\\app-release_2.apk', true)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/Register/android.widget.Button'), 0)
 
-Mobile.setText(findTestObject('null'), 'ahmad sobari', 0)
+Mobile.tap(findTestObject('Object Repository/Register/android.widget.EditText - Ex. Ahmad Krisdiantoro'), 0)
 
-Mobile.setText(findTestObject('null'), 'sobari@gmail.com', 0)
+Mobile.setText(findTestObject('Object Repository/Register/android.widget.EditText - Ex. Ahmad Krisdiantoro (1)'), 'adriansah1234', 
+    0)
 
-Mobile.setText(findTestObject('null'), 'sobari@123', 0)
+Mobile.tap(findTestObject('Object Repository/Register/android.widget.EditText - Ex. examplegmail.com'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.setText(findTestObject('Object Repository/Register/android.widget.EditText - Ex. examplegmail.com (1)'), 'adriansah1234@gmail.com', 
+    0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Register/android.widget.EditText - Ex. Password'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Register/android.widget.EditText - Ex. Password (1)'), 'adriansah@12345', 
+    0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Register/android.widget.Button (1)'), 0)
+
+Mobile.closeApplication()
 
